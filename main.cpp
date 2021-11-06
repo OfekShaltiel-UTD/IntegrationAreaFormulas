@@ -35,8 +35,8 @@ int main() {
    Rectangle constant1 = Rectangle(yValue,limit1Constant,limit2Constant);
    Semicircle semicircle1 = Semicircle(radius,limit1QuarterOrSemiCircle,limit2QuarterOrSemiCircle);
    Triangle line1 = Triangle(xCoeffiencent,yIntercept,limit1Line,limit2Line);
-   cout << " The area under the graph of y="<<2<< " from x="<< limit1Constant <<" to x="<<limit2Constant<< " is: " << constant1.constant() << endl; 
-   cout << " The area under the graph of y="<<xCoeffiencent<<"x+"<<yIntercept<< " from x="<<limit1Line <<" to "<< "x="<< limit2Line << " is: " << line1.line()<< endl;
-   cout << " The area under the graph of y=sqrt("<<pow(radius,2) <<"-x^2) from x="<<limit1QuarterOrSemiCircle <<" to x= "<< limit2QuarterOrSemiCircle <<" is: " << semicircle1.quarterOrSemiCircle() << endl;
+   cout << "The area under the graph of y= "<<yValue<< " from x = "<< limit1Constant <<" to x = "<<limit2Constant<< " is: " << constant1.constant() << endl; 
+   cout << "The area under the graph of y= "<<xCoeffiencent<<"x + "<<yIntercept<< " from x = "<<limit1Line <<" to "<< "x = "<< limit2Line << " is: " << line1.line()<< endl;
+   cout << "The area under the graph of y=sqrt("<<pow(radius,2) <<" - x^2) from x = "<<limit1QuarterOrSemiCircle <<" to x = "<< limit2QuarterOrSemiCircle <<" is: " << semicircle1.quarterOrSemiCircle() << endl;
 
 }
